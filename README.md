@@ -45,14 +45,14 @@ docker compose up
 ## Tests
 
 - **Backend (PHPUnit):**
-  ```bash
+```bash
   docker compose run --rm php php artisan test
-  ```
+```
 
 - **Frontend (Vitest):**
-  ```bash
+```bash
 docker compose exec node npm run test:run
-  ```
+```
 
 ## Estructura
 
